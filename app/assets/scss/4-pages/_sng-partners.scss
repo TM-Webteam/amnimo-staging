@@ -1,0 +1,20 @@
+.sng-partners {
+  color: #10069f;
+  .hero03 {
+    height: 470px;
+    background: url("../img/common/bg-partners.webp") 50% / cover no-repeat;
+    @media #{$sp} {
+      height: auto;
+    }
+    .ttl-primary-lower {
+      margin-bottom: 0;
+    }
+  }
+  .lead-txt {
+    color: #10069f !important;
+  }
+  .flow-list > li:not(:last-child)::after, 
+  .flow-list > dd:not(:last-child)::after {
+    content: none;
+  }
+}

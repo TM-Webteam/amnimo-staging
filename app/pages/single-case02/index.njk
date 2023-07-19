@@ -1,0 +1,236 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<div id="container" class="sng-case">
+
+  <div class="breadcrumb">
+    <ul class="breadcrumb-list">
+      <li><a href="/">産業用IoTのことならamnimo</a></li>
+      <li><a href="/case/">導入事例・利用シーン</a></li>
+      <li>監視カメラ・防犯カメラシステム</li>
+    </ul>
+  </div>
+  <!-- .breadcrumb -->
+
+  <section class="">
+    <div class="containers flex">
+
+      <!-- 投稿記事詳細メイン -->
+      <article class="main-conts single">
+
+        <div class="single__cat"><span class="cat">利用シーン</span></div>
+
+        <h1 class="single__h1">監視カメラ・防犯カメラシステム</h1>
+
+        <div class="single__lead">～監視カメラは「設置する」時代から「映像を活用する」時代へ～</div>
+
+        <h2 class="single__h2">＜概要＞</h2>
+
+        <div class="single__txt">
+          <p>監視カメラが普及し始めた当初は、設置されていることが犯罪の抑止力につながっていたので、ダミーカメラを設置するという事例も多く見られていました。また当初はアナログカメラが主流でした。その後は、事件や事故など何かが起こった際に録画したデーターを調査するという時代へ移りました。そして現在では、撮影した映像をどのように活用するか考えるべき時代に入っています。高画質なネットワークカメラ、インターネット、クラウド、運用監視、AIによる映像解析などで、「過去の出来事の確認」だけでなく、「未来を予測する」といった映像の活用が求められており、スマートシティの実現に向けた中核インフラとして期待されています。これに伴って、監視カメラを設置するプレイヤーも、カメラ設置業者から、ネットワーク技術などのITスキルの高い保守運用業者やソリューションベンダーへと移り変わってきています。</p>
+        </div>
+
+        <div class="single__img">
+          <img src="/assets/img/common/img-case07.jpg" alt="">
+        </div>
+
+        <h2 class="single__h2">＜概要＞</h2>
+
+        <div class="single__txt">
+          <p>監視カメラは、設置するだけでなく、日々の運用管理が非常に重要です。だからこそ「カメラが止まってしまった時にすぐに復旧できるか？」「監視カメラの映像を活用できているか？」を見直してみてはいかがでしょうか？自然災害が頻発している昨今では、店舗やオフィスなどの防犯というニーズだけでなく、豪雨の際のアンダーパスや河川の監視などの用途で、監視カメラが利用されています。また屋内だけでなく、踏切、ビル、工場、プラント、空港など、過酷な環境の屋外では特に、安心・安全で、止まらない監視カメラシステムを構築したいというニーズが高まっています。</p>
+          <p>ただ、そのような屋外などの設置場所において、カメラが正常に動作していないという状況が多く見られます。監視カメラが正常動作していない原因として代表的なものとしては、録画メディアであるSDカードの寿命が短いとか、屋外の過酷な環境に設置されたカメラ本体がフリーズする、といったものです。それに対し、多くのカメラは屋外の高い場所に設置され、防水加工もされているので、ちょっとした復旧作業にも多大な手間とコストがかかる、ということが問題になっています。<br>また同時に「設置はしたが活用というところまではできていない」というお客様からの声も聞こえています。<br>監視カメラにはネットワークに接続されていないものもまだ数多く、「画像をすぐには取り出せない」「正常にカメラが動作しているのかを外部から検知できず、必要な録画ができていなかった」といった事例も見られます。これらの理由から、カメラの映像を十分に活用できているとは言い切れないのが現状です。</p>
+        </div>
+
+        <h3 class="single__h3">■現状の監視カメラが抱える課題と、実際に行われている対処法の例</h3>
+
+        <ol class="single__ol">
+          <li>カメラがハングアップした→現場に駆けつけて電源をリブート</li>
+          <li>SDカードの録画が止まった→SDカードを都度交換、あるいは定期的に交換</li>
+          <li>電源ノイズや瞬停でカメラが止まった→現場に駆けつけて電源をリブート</li>
+          <li>遠隔で映像を監視したい→SDカードを本体から取り出して確認しなければならない</li>
+          <li>遠隔で各地の映像を管理したい→個別にカメラ映像を確認しなければならない</li>
+        </ol>
+
+        <div class="single__txt"><p>このように人の手によって、保守運用を行ない、時間とコストがかかっているのが現状です。</p></div>
+
+        <h2 class="single__h2">＜アムニモの解決方法＞</h2>
+
+        <h3 class="single__h3">１、アムニモで解決できる主な課題</h3>
+
+        <ul class="single__ul">
+          <li>監視カメラを止めない</li>
+          <li>カメラやゲートウェイが動作しているのが確認できる</li>
+          <li>過酷な環境下でも録画を止めない</li>
+          <li>録画データが消えない</li>
+          <li>瞬停や瞬断が起きても壊れない</li>
+          <li>見たい映像をいつでもどこでも素早く検索できる</li>
+          <li>遠隔通信が途絶えない</li>
+          <li>通信コストが高くない</li>
+          <li>運用事業者にやさしいシステム</li>
+        </ul>
+
+        <h3 class="single__h3">１、アムニモで解決できる主な課題</h3>
+
+        <div class="single__txt"><p>監視カメラ専用のデバイス（<a href="#">エッジゲートウェイ</a>）と、クラウドアプリケーションサービス（<a href="#">デバイス管理システム</a>、<a href="#">ビデオマネジメントシステム</a>、統合ビデオ管理システム）でシステムを構成しています。</p></div>
+
+        <div class="single__img">
+          <img src="/assets/img/common/img-case08.jpg" alt="">
+        </div>
+
+        <div class="single__txt"><p>エッジゲートウェイは、「PoEスイッチ」、「LTE通信デバイス」、「VMS用コンピュータ（Linux）」、「SSD録画装置（レコーダー）」の4機能を1台にコンパクトにまとめ、それぞれの機能を連携させることで、この1台で、これまでできなかったさまざまな機能を実現しています。また重複するユニットもないので、導入コストを低減することができます。</p></div>
+
+        <div class="single__img">
+          <img src="/assets/img/common/img-case09.jpg" alt="">
+        </div>
+
+        <div class="single__txt">
+          <p><b>①カメラのハングアップを防ぐ</b><br>エッジゲートウェイには、４つの PoE（Power over Ethernet）を搭載しているので、カメラをEthernetケーブル（LANケーブル）のみで接続し、外部からの電源不要で、給電することができます。カメラはエッジゲートウェイから常に監視していて、万が一、カメラが正常に動作していない場合は、PoEのリセットによりカメラの復旧が可能になります。※ ONVIF規格に対応したIPカメラであれば接続可能
+          </p>
+          <p><b>②24時間365日、録画を止めない</b><br>SDカードには書き込み回数の制限や、発熱したりすることがあるため、過酷な屋外環境での長時間使用には不向きと言えます。そのため エッジゲートウェイには信頼性の高い記録媒体としてSSDを搭載し、さらに録画機能を制御するビデオマネジメントシステム（VMS）のソフトウェアを内蔵しています。これにより、確実にデータを録画・保存すると同時に、画像解析の効率化も可能になります。</p>
+          <p><b>③瞬停や急激な電圧降下でもカメラを止めない</b><br>踏切や工事、製造現場などでは、電源が不安定になりがちです。例えば工事現場では電力供給の途中でコンプレッサーなど大きな電力を使う機器が繋がっている場合もあり、電圧が急激に下がって瞬停を起こし、デバイスが不安定になって止まることが起きます。エッジゲートウェイはこうした過酷な環境で使われることを想定し、内部にインバーター回路を備え、電源が落ちる前にSSDへの記録を終える設計になっています（ 特許第6954423号）。この対策によりSSDが破壊されることを防いでいます。</p>
+          <p><b>④遠隔監視できる</b><br>屋外で有線を引くのが難しい設置環境の場合、通信にはモバイル回線を使用します。デバイスは４つのSIMを装着できるようになっていて、４つのキャリアをコントロールして使うことが可能です。例えば災害時にキャリアＡの基地局が流されるなどのトラブルで１つのキャリアが不通になった場合でも、15秒程度で回線が通じているキャリアＢへと切り替えて通信を維持することができ、クラウドとの切断時間を最小限に抑えることができます。</p>
+          <p><b>⑤遠隔で複数個所の映像管理ができる</b><br>カメラが複数拠点に多くの台数が設置されている場合、集中管理センターのモニターでまとめて見たいというニーズにもお応えできます。全デバイスの映像を統合管理し、サムネイルのみクラウドに送り、動画は必要分のみコピーするほか、ライブ映像、ソリューション連携が可能です。必要なタイミングで必要な情報だけをクラウドに上げられるので、通信費用も抑えることができます。映像は、パソコンやスマホ、タブレットなどで閲覧できます。</p>
+        </div>
+
+        <div class="single__img">
+          <img src="/assets/img/common/img-case10.jpg" alt="">
+        </div>
+
+        <h3 class="single__h3">３、クラウドアプリケーションサービスで迅速な映像解析をサポート</h3>
+
+        <div class="single__txt">
+          <p>当社のエッジゲートウェイの機能をさらに活用するためのクラウドサービスを紹介します。</p>
+          <p><b>①ビデオマネジメントシステム（VMS）</b><br>VMSは、ONVIF規格に対応したカメラの設定制御や、撮影した映像の録画や分析、録画した映像のスマート検索ができる、映像を活用するためのソフトウェアです。エッジゲートウェイでは、VMSとして、Network Optix社が提供するNxWitnessをプレインストールしています。特に、「スマート検索機能」は非常に使い勝手が良く、すでに録画されている映像に対して、画面の中の一部分を指定すると、その部分に動きがあった時刻の画像を検索して抽出することができる機能を持っています。この機能により、事件や事故の際に、特定の場所に動きがあった場面を探してチェックする調査を効率よく実施することが可能になります。</p>
+        </div>
+
+        <div class="single__btn taC"><a href="">▶　ビデオマネジメントシステム（VMS）について</a></div>
+
+        <div class="single__img">
+          <img src="/assets/img/common/img-case11.jpg" alt="">
+        </div>
+
+        <div class="single__txt">
+          <p><b>②デバイス管理システム</b><br>デバイス管理システムは、広域に展開する監視カメラの保守運用の手間を大幅に削減することを可能にします。例えば、エッジゲートウェイと接続したカメラ映像を遠隔で見るためには、最初にネットワークの設定を行う必要がありますが、そのような初期設定の作業を”自動初期設定機能”で軽減することができます。さらに、デバイスの設定変更や、ファームウェアの更新を遠隔で実施することが可能です。<br>また、トラブル解析や故障対応時は、遠隔でカメラの死活監視や、カメラだけでなくエッジゲートウェイの遠隔リセットができ、動作ログを取得できるので、トラブルの原因究明もできます。デバイスを交換する際の、設定引き継ぎも簡単に行うことができます。</p>
+        </div>
+
+        <div class="single__btn taC"><a href="#">▶　ビデオマネジメントシステム（VMS）について</a></div>
+
+        <div class="single__img">
+          <img src="/assets/img/common/img-case12.jpg" alt="">
+        </div>
+
+        <div class="single__txt">
+          <p><b>③統合ビデオ管理システム</b><br>統合ビデオ管理システムは、監視業務用の各種表示画面をクラウドに生成して、端末に提供するもので、複数拠点に設置されたデバイスの録画映像を統合管理するのに適しています。またクラウド上で複数のエッジゲートウェイにつながれたカメラ映像を監視画面でまとめて表示できるようになります。さらに大画面で監視カメラの全体的な状況をモニタリングしたり、監視カメラで生成されたサムネイル画像を定期的にアップロードして表示したり、ローテーションにより多くのカメラ映像を切り替えながら表示することもできます。またアラームが発生しているカメラの画像を固定表示する、1画面の表示画面数やローテーションルールを設定するなど、セキュリティの運用事業者が使いやすいようにカスタマイズすることも可能です。</p>
+        </div>
+
+        <div class="single__btn taC"><a href="#">▶　統合ビデオ管理システムについて</a></div>
+
+        <div class="single__img">
+          <img src="/assets/img/common/img-case13.jpg" alt="">
+        </div>
+
+        <div class="single__img">
+          <img src="/assets/img/common/img-case14.jpg" alt="">
+        </div>
+
+      </article>
+
+      <!-- サイドメニュー -->
+      <aside class="side-nav">
+
+        <div class="catSearch">
+          <h3 class="ttl-tertiary">カテゴリで探す</h3>
+          <ul class="catSearch__list">
+            <li><a href="#">カテゴリ名が入ります</a></li>
+            <li><a href="#">カテゴリ名が入ります</a></li>
+            <li><a href="#">カテゴリ名が入ります</a></li>
+            <li><a href="#">カテゴリ名が入ります</a></li>
+          </ul>
+        </div>
+
+        <a href="/contact/" class="bnr-contact"><img src="/assets/img/common/bnr-contact.png" alt=""></a>
+
+        <a href="/catalog/" class="bnr-catalog"><img src="/assets/img/common/bnr-catalog.png" alt=""></a>
+
+      </aside>
+      
+    </div>
+  </section>
+
+  <section class="relation-doc">
+    <div class="containers">
+      <h2 class="ttl-secondary">関連資料</h2>
+      <div class="flex card">
+        <a href="#" class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/common/img-doc01.jpg" alt=""></figure>
+          <div class="card__box--cat"><span class="cat">カテゴリ名</span></div>
+          <h3 class="card__box--ttl">資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</h3>
+          <div class="more small">ダウンロード</div>
+        </a>
+        <a href="#" class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/common/img-doc02.jpg" alt=""></figure>
+          <div class="card__box--cat"><span class="cat">カテゴリ名</span></div>
+          <h3 class="card__box--ttl">資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。</h3>
+          <div class="more small">ダウンロード</div>
+        </a>
+        <a href="#" class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/common/img-doc01.jpg" alt=""></figure>
+          <div class="card__box--cat"><span class="cat">カテゴリ名</span></div>
+          <h3 class="card__box--ttl">資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。資料タイトルが入ります。</h3>
+          <div class="more small">ダウンロード</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="relation-column">
+    <div class="containers">
+      <h2 class="ttl-secondary">関連する利用シーン・導入事例</h2>
+      <div class="flex card">
+        <a href="#" class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/common/img-case01.jpg" alt=""></figure>
+          <h3 class="card__box--ttl"><div>監視カメラ・防犯カメラシステム</div></h3>
+        </a>
+        <a href="#" class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/common/img-case02.jpg" alt=""></figure>
+          <h3 class="card__box--ttl"><div>地域BWAでの利用シーン</div></h3>
+        </a>
+        <a href="#" class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/common/img-case03.jpg" alt=""></figure>
+          <h3 class="card__box--ttl"><div>屋外設置の防犯カメラ・監視カメラ運用</div></h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="contact-block" id="contact-block">
+    <h3 class="ttl-secondary"><span>お問い合わせ</span></h3>
+    <ul>
+      <li class="btn green"><a href="https://support.amnimo.com/hc/ja/requests/new" class="form" target="_blank">お問い合わせ<span class="ib">フォーム</span></a></li>
+      <li class="btn green"><a href="/contact/#doc" class="doc">資料ダウンロード<span class="f80">（無料）</span></a></li>
+      <li class="btn green"><a href="https://amo.amnimo.com/form/estimate" target="_blank" class="quotation">お見積もり依頼</a></li>
+    </ul>
+  </div>
+
+</div>
+<!--container-->
+
+{% endblock %}

@@ -1,0 +1,359 @@
+.sng-case {
+
+  .single {
+    .taC {
+      text-align: center;
+    }
+    a {
+      display: inline;
+      color: #10069F;
+      text-decoration: underline;
+      &:hover {
+        opacity: 1;
+        text-decoration: none;
+      }
+    }
+    .link-btn-blue {
+      text-align: center;
+      margin: 49px auto;
+      a {
+        background: #10069f;
+        color: #FFF;
+        border: 1px solid #FFF;
+        position: relative;
+        display: block;
+        text-decoration: none;
+        padding: 1.7em 1.2em;
+        font-size: 0.9em;
+        text-align: center;
+        border-radius: 10px;
+        -webkit-transition: all 0.4s ease-in;
+        transition: all 0.4s ease-in;
+        line-height: 1.5;
+        width: 400px;
+        margin: 0 auto;
+        @media #{$sp} {
+          width: 85%;
+        }
+        &:hover {
+          opacity: 1;
+          background: #FFF;
+          color: #10069f;
+          border: 1px solid #10069f;
+        }
+      }
+    }
+    
+    .link-btn-green {
+      text-align: center;
+      margin: 49px auto;
+      a {
+        background: #00e0cd;
+        color: #FFF;
+        border: 1px solid #FFF;
+        position: relative;
+        display: block;
+        text-decoration: none;
+        padding: 1.7em 1.2em;
+        font-size: 0.9em;
+        text-align: center;
+        border-radius: 10px;
+        -webkit-transition: all 0.4s ease-in;
+        transition: all 0.4s ease-in;
+        line-height: 1.5;
+        width: 400px;
+        margin: 0 auto;
+        @media #{$sp} {
+          width: 85%;
+        }
+        &:hover {
+          opacity: 1;
+          background: #FFF;
+          color: #00e0cd;
+          border: 1px solid #00e0cd;
+        }
+      }
+    }
+    &__btn {
+      a {
+        display: inline-block;
+        background: #00E0CD;
+        color: #fff;
+        padding: 15px;
+        text-decoration: none;
+        margin-bottom: 30px;
+        @media #{$sp} {
+          padding: 10px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+    &__ol {
+      margin-bottom: 30px;
+      counter-reset: my-counter;
+      @media #{$sp} {
+        margin-bottom: 15px;
+      }
+      li {
+        padding-left: 2em;
+        position: relative;
+        &::before {
+          content: counter(my-counter);
+          counter-increment: my-counter;
+          background-color: #10069F;
+          border: 1px solid;
+          border-radius: 50%;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 22px;
+          width: 22px;
+          color: #ffffff;
+          font-size: 85%;
+          line-height: 1;
+          position: absolute;
+          top: 5px;
+          left: 0;
+          @media #{$sp} {
+            height: 18px;
+            width: 18px;
+          }
+        }
+        &:not(:last-child) {
+          margin-bottom: 5px;
+        }
+      }
+    }
+    &__ul {
+      margin-bottom: 30px;
+      padding-left: 1.5em;
+      @media #{$sp} {
+        margin-bottom: 15px;
+      }
+      li {
+        list-style: disc;
+        &:not(:last-child) {
+          margin-bottom: 5px;
+        }
+      }
+    }
+    &__h1 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 60px;
+      color: #10069F;
+      padding-left: 20px;
+      border-left: 6px solid #00E0CD;
+      @media #{$sp} {
+        font-size: 20px;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        border-left: 4px solid #00E0CD;
+      }
+    }
+    &__h2 {
+      font-size: 22px;
+      font-weight: bold;
+      padding: 15px 20px;
+      background: #F6F8F8;
+      color: #10069F;
+      margin-bottom: 30px;
+      @media #{$sp} {
+        font-size: 18px;
+        padding: 10px 15px;
+        margin-bottom: 15px;
+      }
+    }
+    &__h3 {
+      font-size: 20px;
+      font-weight: bold;
+      padding-left: 20px;
+      border-left: 6px solid #10069F;
+      color: #10069F;
+      line-height: 1.5;
+      position: relative;
+      margin-bottom: 30px;
+      @media #{$sp} {
+        font-size: 16px;
+        padding-top: 5px;
+        margin-bottom: 15px;
+      }
+    }
+    &__lead {
+      font-size: 22px;
+      text-align: center;
+      font-weight: bold;
+      line-height: 2;
+      margin-bottom: 30px;
+      @media #{$sp} {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+      small {
+        font-size: 16px;
+        @media #{$sp} {
+          font-size: 14px;
+        }
+      }
+    }
+    &__time {
+      margin-bottom: 30px;
+      @media #{$sp} {
+        margin-bottom: 15px;
+      }
+    }
+    &__cat {
+      .cat {
+        font-size: 16px;
+        padding: 10px 30px;
+        border-radius: 5px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+        margin-bottom: 30px;
+        margin-right: 1em;
+        @media #{$sp} {
+          font-size: 14px;
+          padding: 5px 15px;
+          margin-bottom: 15px;
+          margin-right: 5px;
+        }
+      }
+    }
+    &__dl {
+      margin-bottom: 30px;
+      @media #{$sp} {
+        margin-bottom: 15px;
+      }
+      &:not(:last-of-type) {
+        position: relative;
+        margin-bottom: 80px;
+        @media #{$sp} {
+          margin-bottom: 40px;
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: -60px;
+          margin: auto;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 40px 42.5px 0 42.5px;
+          border-color: #00e0cd transparent transparent transparent;
+          @media #{$sp} {
+            bottom: -30px;
+            border-style: solid;
+            border-width: 20px 20px 0 20px;
+            border-color: #00e0cd transparent transparent transparent;
+          }
+        } 
+      }
+      dt {
+        font-size: 20px;
+        background: #10069F;
+        padding: 5px;
+        color: #fff;
+        text-align: center;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+        border-radius: 10px 10px 0 0;
+        @media #{$sp} {
+          font-size: 16px;
+        }
+      }
+      dd {
+        padding: 20px;
+        background: #F6F8F8;
+        @media #{$sp} {
+          padding: 15px;
+        }
+        ul {
+          padding-left: 1em;
+          li {
+            &::before {
+              content: "●　";
+            }
+            &:not(:last-child) {
+              margin-bottom: 5px;
+            }
+          }
+        }
+      }
+    }
+    &__txt {
+      line-height: 2;
+      margin-bottom: 30px;
+      @media #{$sp} {
+        margin-bottom: 15px;
+      }
+      p {
+        &:not(:last-child) {
+          margin-bottom: 30px;
+          @media #{$sp} {
+            margin-bottom: 15px;
+          }
+        }
+        img {
+          height: auto;
+          max-width: 100%;
+          width: auto;
+          display: block;
+          margin: auto;
+        }
+      }
+    }
+    &__img {
+      margin-bottom: 30px;
+      @media #{$sp} {
+        margin-bottom: 15px;
+      }
+      // img {
+      //   max-width: none;
+      //   width: 50%;
+      //   @media #{$sp} {
+      //     width: 100%;
+      //   }
+      //   &.full {
+      //     width: 100%;
+      //   }
+      // }
+    }
+    &__ttl {
+      color: #fff;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px;
+      background: #0D5BAB;
+      position: relative;
+      @media #{$sp} {
+        font-size: 16px;
+      }
+      span {
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: -40px;
+          margin: auto;
+          width: 20px;
+          height: 20px;
+        }
+        &.doc {
+          &::before {
+            background: url("../img/common/icon-doc.svg") 50% / contain no-repeat;
+          }
+        }
+        &.pen {
+          &::before {
+            background: url("../img/common/icon-pen.svg") 50% / contain no-repeat;
+          }
+        }
+      }
+    }
+  }
+  
+}

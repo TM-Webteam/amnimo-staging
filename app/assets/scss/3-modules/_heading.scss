@@ -1,0 +1,115 @@
+/*
+  ----------------
+  各　見出し
+  ----------------
+*/
+.ttl-primary {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.5;
+  text-align: center;
+	margin-bottom: 40px;
+	@media #{$sp} {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+  &.cW {
+    color: #fff;
+  }
+}
+
+.ttl-primary-lower {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0,0,0,0.6);
+  &.cW {
+    color: #fff;
+  }
+  @media #{$sp} {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+}
+
+.ttl-secondary {
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom: 80px;
+  color: #10069F;
+  position: relative;
+	@media #{$sp} {
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+  &.cW {
+    color: #fff;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+    margin: auto;
+    width: 150px;
+    height: 6px;
+    background: #00E0CD;
+    @media #{$sp} {
+      bottom: -10px;
+      width: 80px;
+      height: 4px;
+    }
+  }
+}
+
+.contact-block {
+  .ttl-secondary {
+    margin-bottom: 50px;
+    @media #{$sp} {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.ttl-tertiary {
+	font-size: 20px;
+	font-weight: 700;
+  background: #10069F;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+	@media #{$sp} {
+		font-size: 16px;
+	}
+}
+
+.ttl-quaternary {
+	
+}
+
+.ttl-quinary {
+	
+}
+
+.lead {
+	font-size: 28px;
+  font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+  text-shadow: 0 0 10px rgba(0,0,0,0.6);
+	@media #{$sp} {
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+  &.cW {
+    color: #fff;
+  }
+}
+
+.note {
+	font-size: 12px;
+}

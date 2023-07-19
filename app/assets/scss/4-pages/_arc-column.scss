@@ -1,0 +1,11 @@
+.arc-column {
+
+  .hero03 {
+    height: 470px;
+    background: url("../img/common/bg-column.webp") 50% / cover no-repeat;
+    @media #{$sp} {
+      height: auto;
+    }
+  }
+  
+}

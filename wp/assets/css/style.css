@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.relation-column .card::after {
+  content:"";
+  display: block;
+  width: calc(100% / 3 - 20px);
+}
+
+.relation-doc .card::after {
+  content:"";
+  display: block;
+  width: calc(100% / 3 - 20px);
+}
+

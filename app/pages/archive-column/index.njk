@@ -1,0 +1,274 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+
+<div id="container" class="arc-column">
+
+  <div class="breadcrumb">
+    <ul class="breadcrumb-list">
+      <li><a href="/">産業用IoTのことならamnimo</a></li>
+      <li>コラム</li>
+    </ul>
+  </div>
+  <!-- .breadcrumb -->
+
+  <section class="hero03 core">
+    <div class="containers">
+      <div class="hero03__box">
+        <h1 class="ttl-primary-lower cW">コラム</h1>
+        <div class="lead cW">IoTや監視カメラシステム、AI、ゲートウェイ、ルーターなどに関する<br>幅広い知識をまとめてご紹介します。</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+		<div class="containers">
+      <div class="search">
+        <form method="get" action="" class="search__form">
+          <input name="s" class="search__input" type="search" placeholder="キーワードから探す">
+          <input type="hidden" name="post_type" value="column">
+          <button accesskey="f" class="search__btn" type="submit"><img src="/assets/img/common/icon-search.svg"></button>
+        </form>
+      </div>
+			<div class="flex gap10 jcC inherit">
+        <a href="#" class="cat bgW">カテゴリ名が入ります。</a>
+        <a href="#" class="cat bgW">カテゴリ名が入ります。</a>
+        <a href="#" class="cat bgW">カテゴリ名が入ります。</a>
+        <a href="#" class="cat bgW">カテゴリ名が入ります。</a>
+        <a href="#" class="cat bgW">カテゴリ名が入ります。</a>
+      </div>
+		</div>
+	</section>
+
+  <section class="latest">
+    <div class="containers">
+      <h2 class="ttl-secondary">おすすめ資料</h2>
+      <div class="flex gap30">
+
+        <a href="#" class="flex item">
+          <h3 class="item__ttl">ゲートウェイの基礎知識と活用例を詳しく解説</h3>
+          <div class="item__img"><img src="/assets/img/common/img01.jpg" alt=""></div>
+          <div class="item__box">
+            <div class="item__box--cat">
+              <span class="cat">カテゴリ名</span>
+              <span class="cat">カテゴリ名</span>
+            </div>
+            <div class="item__box--txt">近年IoTサービスの普及などに伴い、「ゲートウェイ」がより幅広い産業で使われるようになっています。</div>
+          </div>
+        </a>
+
+        <a href="#" class="flex item">
+          <h3 class="item__ttl">IoTゲートウェイとは？導入によるメリットと活用事例</h3>
+          <div class="item__img"><img src="/assets/img/common/img02.jpg" alt=""></div>
+          <div class="item__box">
+            <div class="item__box--cat"><span class="cat">カテゴリ名</span></div>
+            <div class="item__box--txt">インターネット社会の発達と共に、数多くのいわゆる「ネット用語」が世の中に氾濫しています。ただ「…</div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="containers">
+
+      <div class="flex gap30 grid">
+
+        <a href="#" class="grid__card">
+          <div class="grid__card--img"><img src="/assets/img/common/img01.jpg" alt=""></div>
+          <div class="flex fS grid__card--cat">
+            <span class="cat">カテゴリ名</span>
+            <span class="cat">カテゴ</span>
+          </div>
+          <h3 class="grid__card--ttl">ゲートウェイの基礎知識と活用例を詳しく解説</h3>
+          <div class="grid__card--time"><time class="time">2021.03.16</time></div>
+        </a>
+        <a href="#" class="grid__card">
+          <div class="grid__card--img"><img src="/assets/img/common/img02.jpg" alt=""></div>
+          <div class="flex fS grid__card--cat">
+            <span class="cat">カテゴリ名</span>
+            <span class="cat">カテゴ</span>
+          </div>
+          <h3 class="grid__card--ttl">IoTゲートウェイとは？導入によるメリットと活用事例</h3>
+          <div class="grid__card--time"><time class="time">2021.03.16</time></div>
+        </a>
+        <a href="#" class="grid__card">
+          <div class="grid__card--img"><img src="/assets/img/common/img03.jpg" alt=""></div>
+          <div class="flex fS grid__card--cat">
+            <span class="cat">カテゴリ名</span>
+            <span class="cat">カテゴ</span>
+          </div>
+          <h3 class="grid__card--ttl">LTEゲートウェイとは一体何？基礎的な情報を紹介</h3>
+          <div class="grid__card--time"><time class="time">2021.03.16</time></div>
+        </a>
+        <a href="#" class="grid__card">
+          <div class="grid__card--img"><img src="/assets/img/common/img04.jpg" alt=""></div>
+          <div class="flex fS grid__card--cat">
+            <span class="cat">カテゴリ名</span>
+            <span class="cat">カテゴ</span>
+          </div>
+          <h3 class="grid__card--ttl">導入する方必見。4Gゲートウェイの「4G」とは一体どんなもの？</h3>
+          <div class="grid__card--time"><time class="time">2021.03.16</time></div>
+        </a>
+        <a href="#" class="grid__card">
+          <div class="grid__card--img"><img src="/assets/img/common/img01.jpg" alt=""></div>
+          <div class="flex fS grid__card--cat">
+            <span class="cat">カテゴリ名</span>
+            <span class="cat">カテゴ</span>
+          </div>
+          <h3 class="grid__card--ttl">ゲートウェイの基礎知識と活用例を詳しく解説</h3>
+          <div class="grid__card--time"><time class="time">2021.03.16</time></div>
+        </a>
+        <a href="#" class="grid__card">
+          <div class="grid__card--img"><img src="/assets/img/common/img02.jpg" alt=""></div>
+          <div class="flex fS grid__card--cat">
+            <span class="cat">カテゴリ名</span>
+            <span class="cat">カテゴ</span>
+          </div>
+          <h3 class="grid__card--ttl">IoTゲートウェイとは？導入によるメリットと活用事例</h3>
+          <div class="grid__card--time"><time class="time">2021.03.16</time></div>
+        </a>
+        <a href="#" class="grid__card">
+          <div class="grid__card--img"><img src="/assets/img/common/img03.jpg" alt=""></div>
+          <div class="flex fS grid__card--cat">
+            <span class="cat">カテゴリ名</span>
+            <span class="cat">カテゴ</span>
+          </div>
+          <h3 class="grid__card--ttl">LTEゲートウェイとは一体何？基礎的な情報を紹介</h3>
+          <div class="grid__card--time"><time class="time">2021.03.16</time></div>
+        </a>
+        <a href="#" class="grid__card">
+          <div class="grid__card--img"><img src="/assets/img/common/img04.jpg" alt=""></div>
+          <div class="flex fS grid__card--cat">
+            <span class="cat">カテゴリ名</span>
+            <span class="cat">カテゴ</span>
+          </div>
+          <h3 class="grid__card--ttl">導入する方必見。4Gゲートウェイの「4G」とは一体どんなもの？</h3>
+          <div class="grid__card--time"><time class="time">2021.03.16</time></div>
+        </a>
+        <a href="#" class="grid__card">
+          <div class="grid__card--img"><img src="/assets/img/common/img01.jpg" alt=""></div>
+          <div class="flex fS grid__card--cat">
+            <span class="cat">カテゴリ名</span>
+            <span class="cat">カテゴ</span>
+          </div>
+          <h3 class="grid__card--ttl">ゲートウェイの基礎知識と活用例を詳しく解説</h3>
+          <div class="grid__card--time"><time class="time">2021.03.16</time></div>
+        </a>
+        <a href="#" class="grid__card">
+          <div class="grid__card--img"><img src="/assets/img/common/img02.jpg" alt=""></div>
+          <div class="flex fS grid__card--cat">
+            <span class="cat">カテゴリ名</span>
+            <span class="cat">カテゴ</span>
+          </div>
+          <h3 class="grid__card--ttl">IoTゲートウェイとは？導入によるメリットと活用事例</h3>
+          <div class="grid__card--time"><time class="time">2021.03.16</time></div>
+        </a>
+        <a href="#" class="grid__card">
+          <div class="grid__card--img"><img src="/assets/img/common/img03.jpg" alt=""></div>
+          <div class="flex fS grid__card--cat">
+            <span class="cat">カテゴリ名</span>
+            <span class="cat">カテゴ</span>
+          </div>
+          <h3 class="grid__card--ttl">LTEゲートウェイとは一体何？基礎的な情報を紹介</h3>
+          <div class="grid__card--time"><time class="time">2021.03.16</time></div>
+        </a>
+        <a href="#" class="grid__card">
+          <div class="grid__card--img"><img src="/assets/img/common/img04.jpg" alt=""></div>
+          <div class="flex fS grid__card--cat">
+            <span class="cat">カテゴリ名</span>
+            <span class="cat">カテゴ</span>
+          </div>
+          <h3 class="grid__card--ttl">導入する方必見。4Gゲートウェイの「4G」とは一体どんなもの？</h3>
+          <div class="grid__card--time"><time class="time">2021.03.16</time></div>
+        </a>
+
+      </div>
+
+      <nav class="pagination">
+        <div class="nav-links">
+          <a class="prev page-numbers" href="#"><span></span></a>
+          <a class="page-numbers" href="#">1</a>
+          <span class="page-numbers current">2</span>
+          <a class="page-numbers" href="#">3</a>
+          <a class="page-numbers" href="#">4</a>
+          <a class="page-numbers" href="#">5</a>
+          <a class="next page-numbers" href="#"><span></span></a>
+        </div>
+      </nav>
+
+    </div>
+  </section>
+
+  <section class="material">
+    <div class="containers">
+      <h2 class="ttl-secondary cW">お役立ち資料</h2>
+      <div class="flex aiC jcC desc">
+        <figure class="desc__img"><img src="/assets/img/common/img-wp.png" alt=""></figure>
+        <summary class="desc__box">
+          <h3 class="desc__box--ttl">IoTや監視カメラシステム、AI、ゲートウェイ、ルーターなどに関する幅広い知識をまとめてた資料が無料でダウンロードできます。</h3>
+          <a href="/whitepaper/" class="more">ホワイトペーパーをみる</a>
+        </summary>
+      </div>
+    </div>
+  </section>
+
+  <div class="contact-block" id="contact-block">
+    <h3 class="ttl-secondary"><span>お問い合わせ</span></h3>
+    <ul>
+      <li class="btn green"><a href="https://support.amnimo.com/hc/ja/requests/new" class="form" target="_blank">お問い合わせ<span class="ib">フォーム</span></a></li>
+      <li class="btn green"><a href="/contact/#doc" class="doc">資料ダウンロード<span class="f80">（無料）</span></a></li>
+      <li class="btn green"><a href="https://amo.amnimo.com/form/estimate" target="_blank" class="quotation">お見積もり依頼</a></li>
+    </ul>
+  </div>
+
+  <section class="relation">
+    <div class="containers">
+      <h2 class="ttl-secondary">関連サービス</h2>
+      <div class="flex gap20">
+        <a href="#" class="item">
+          <figure class="item__img"><img src="/assets/img/common/img-relation01.jpg" alt=""></figure>
+          <h3 class="item__ttl">エッジゲートウェイ（屋内版）</h3>
+          <div class="item__txt">厳しい環境下でも安定稼働。様々な産業で利用可能なLTE通信機能搭載</div>
+        </a>
+        <a href="#" class="item">
+          <figure class="item__img"><img src="/assets/img/common/img-relation02.jpg" alt=""></figure>
+          <h3 class="item__ttl">IoT Router（屋内版）</h3>
+          <div class="item__txt">IoT機器からのインターネット通信を可能にするルーター。汎用性が高く、設置場所を選ばない小型軽量タイプ</div>
+        </a>
+        <a href="#" class="item">
+          <figure class="item__img"><img src="/assets/img/common/img-relation03.jpg" alt=""></figure>
+          <h3 class="item__ttl">デバイス管理システム</h3>
+          <div class="item__txt">エッジゲートウェイ及びIoTルーターとクラウドアプリケーションを連携させるシステム</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+   
+
+</div>
+<!--container-->
+
+
+{% endblock %}

@@ -1,0 +1,14 @@
+.arc-case {
+
+  .hero03 {
+    height: 470px;
+    background: url("../img/common/bg-case.webp") 50% / cover no-repeat;
+    @media #{$sp} {
+      height: auto;
+    }
+    .ttl-primary-lower {
+      margin-bottom: 0;
+    }
+  }
+  
+}

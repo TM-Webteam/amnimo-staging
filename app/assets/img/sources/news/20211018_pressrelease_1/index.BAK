@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AIチップを搭載した高性能・低消費電力で小型軽量な「AIエッジゲートウェイ」を開発開始～録画装置に、新たに低消費電力の画像AI機能を搭載～｜ニュース｜IoT・クラウド・AIのことなら|アムニモ株式会社</title>
+  <meta name="description" content="アムニモは、容易に使えることと同時に高い信頼性を有する、IoT機器やソフトウェアサービスの提供を通じ、IoTとAIでつながる世界に貢献していきます。" />
+  <meta name="keywords" content="IIoT,通信,製品,事例,インダストリアルIoT">
+  <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=yes">
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+      'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5RJ3BQK');</script>
+  <!-- End Google Tag Manager -->
+  <link rel="canonical" href="https://amnimo.com/news/20211021_pressrelease_1/">
+  <!-- ogp -->
+  <meta property="og:title" content="AIチップを搭載した高性能・低消費電力で小型軽量な「AIエッジゲートウェイ」を開発開始～録画装置に、新たに低消費電力の画像AI機能を搭載～｜アムニモ株式会社 | amnimo Inc.">
+  <meta property="og:description" content="アムニモ株式会社（本社：東京都武蔵野市　代表取締役社長：谷口功一、以下アムニモ）は、様々な産業用のシステムにおいて顧客の機器からクラウドへのデータの送信を実現するために最適な機器「IoTルーター amnimo Rシリーズ AR10」の販売を3月23日から開始します。">
+  <meta property="og:url" content="https://amnimo.com">
+  <meta property="og:image" content="https://amnimo.com/assets/img/og.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="アムニモ（amnimo）のサービスですぐに簡単にIIoT始めてみませんか？">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AIチップを搭載した高性能・低消費電力で小型軽量な「AIエッジゲートウェイ」を開発開始～録画装置に、新たに低消費電力の画像AI機能を搭載～｜アムニモ株式会社 | amnimo Inc." />
+  <meta name="twitter:description" content="アムニモ株式会社（本社：東京都武蔵野市　代表取締役社長：谷口功一、以下アムニモ）は、様々な産業用のシステムにおいて顧客の機器からクラウドへのデータの送信を実現するために最適な機器「IoTルーター amnimo Rシリーズ AR10」の販売を3月23日から開始します。">
+  <meta name="twitter:image" content="https://amnimo.com/img/og.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/iapple-touch-icon.png" />
+
+  <link href="/css/reset.css" rel="stylesheet">
+  <link href="/css/slick.css" rel="stylesheet">
+  <link href="/css/slick-theme.css" rel="stylesheet">
+  <link href="/css/common.css" rel="stylesheet">
+  <link href="/css/news/style.css" rel="stylesheet">
+  <link href="/css/news/add.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="/js/jquery.matchHeight-min.js"></script>
+  <script src="/js/slick.min.js"></script>
+  <script src="/js/common.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RJ3BQK" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <?php include $_SERVER['DOCUMENT_ROOT']."/inc/global-header.php"; ?>
+
+  <!-- Redirect -->
+  <div id="create-aad">
+    <script>
+      var urlHash = location.hash;
+      if (urlHash) {
+        if (urlHash == "#/create-aad") {
+          location.href = 'https://amnimo.com/cp/#/create-aad';
+        }
+      }
+    </script>
+  </div>
+  <div id="market-place-2/login-or-register">
+    <script>
+      var urlHash = location.hash;
+      if (urlHash) {
+        if (urlHash == "#/market-place-2/login-or-register") {
+          location.href = 'https://amnimo.com/cp/#/market-place-2/login-or-register';
+        }
+      }
+    </script>
+  </div>
+
+  <div id="container" class="news-cont cont-b">
+    <div class="breadcrumb">
+      <ul class="breadcrumb-list">
+        <li><a href="/">産業用IoTのことならamnimo</a></li>
+        <li><a href="/news/">ニュース</a></li>
+        <li>AIチップを搭載した高性能・低消費電力で小型軽量な「AIエッジゲートウェイ」を開発開始～録画装置に、新たに低消費電力の画像AI機能を搭載～</li>
+      </ul>
+    </div><!-- .breadcrumb -->
+
+    <div class="news-wrap">
+      <div class="news-head">
+        <div class="news-type">プレスリリース</div>
+        <div class="date">2021.10.18</div>
+        <h2 class="news-ttl">AIチップを搭載した高性能・低消費電力で小型軽量な<br>「AIエッジゲートウェイ」を開発開始<br>～録画装置に、新たに低消費電力の画像AI機能を搭載～</h2>
+      </div>
+
+      <div class="news-body">
+
+        <div class="section">
+          <p class="ttl-txt">アムニモ株式会社（本社：東京都武蔵野市　代表取締役社長：中林千晴、以下アムニモ）は、様々な産業用のシステムにおいてエッジAIコンピューティングを実現するために最適な機器「AIエッジゲートウェイ」の開発を開始しました。近年、あらゆる業種・業界の企業や組織において、AIやディープラーニングを活用した取り組みが始まってきています。AIやディープラーニングの普及が進むにつれ、エッジデバイス内でのデータ処理を行うエッジコンピューティングが大変注目されています。</p>
+
+          <p class="sp-b10">このようなエッジデバイスでのAI処理要望の高まりに応えるべく、アムニモのエッジゲートウェイシリーズの１つであるAIエッジゲートウェイは、録画装置でありながら、低消費電力の画像AI機能を備えています。これにより、発生事象に応じた迅速な処理、制約の多い場所への設置、必要データのみクラウドに転送することによる通信コスト抑制、録画データの迅速な解析、お客様およびパートナー様独自のAIモデルの搭載を実現可能にします。</p>
+
+
+        <div class="section">
+          <div class="align-c sp-v15"><img src="01.png" alt=""><br>図１：AIエッジゲートウェイ（開発中）の外観</div>
+        </div>
+
+        <div class="section">
+          <p class="sp-b10">また、販売中の「エッジゲートウェイ（屋内版）AG10」の特徴を継承しています。<br>
+(1)独自のノウハウによって実現する高い信頼性・耐環境性能<br>
+(2)クラウドアプリケーションとの連動により保守運用の手間を軽減<br>
+(3)監視カメラシステムの構築に最適
+</p>
+
+          <p class="sp-b10">AIエッジゲートウェイの詳細は、弊社WEBサイト(<a href="/service/ai_edge_gateway/" target="_blank"> https://amnimo.com/service/ai_edge_gateway/</a>)をご参照ください。
+</p>
+        </div>
+
+        <div class="section">
+<h4>■ルネサスエレクトロニクスのRZ/Vシリーズを採用</h4>
+          <p>高性能・低消費電力の画像AI機能は、ルネサス製のビジョンAI向けMPU（Micro Processor Unit）であるRZ/Vシリーズおよび、この開発ツールを採用することにより実現しています。RZ/Vシリーズでは、ルネサス独自技術であるAI専用のハードウェアIP「DRP-AI」が、高速なAI推論と低消費電力を両立しています。また、複数のAIモデルを高速に切り替えることが可能なフレキシブルなアーキテクチャになっており、アプリケーションシステム構築の柔軟性が高くなっています。</p>
+
+        </div>
+
+        <div class="section">
+          <div class="align-c sp-v15"><img src="02.png" alt=""><br>図2：ビジョン向けAIアクセラレータ内蔵RZ/Vシリーズ</div>
+        </div>
+
+        <div class="section">
+<p>ルネサスのエンタープライズ・インフラ・ソリューション事業部、事業部長である加藤　茂樹様は次のように述べています。<br>
+「エッジゲートウェイはIoTにおけるキーデバイスの１つであり、アムニモはこの分野において豊富な実績とノウハウを保有しています。アムニモが、低消費電力なビジョンAI技術をリードするルネサスのRZ/Vシリーズを活用することにより、エッジやエンドポイント機器における高速AI処理ニーズに応えることができると確信しています。」
+</p>
+
+        </div>
+
+
+        <div class="section">
+<h4>■AIエッジゲートウェイの試作機をご紹介、お気軽にご来場ください</h4>
+          <p>第12回Japan IT Week秋のアムニモブースにおいて、AIエッジゲートウェイの試作機を展示します。ブースでは、AI推論性能をご覧頂くために、AIエッジゲートウェイに接続した複数カメラからの入力ビデオ画像に対する並列AI推論処理(tinyYolo v3 AIモデル使用)のデモンストレーションを実施します。　複数カメラに対応可能なAI推論性能および、複数AIモデルの高速切替により、カメラ毎に異なるAI推論の実施や３D AI推論など、ルネサス製RZ/Vシリーズ搭載のアムニモのAIエッジゲートウェイによりアプリケーションシステムの応用の幅が広がります。</p>
+
+        </div>
+
+ <div class="section">
+<p>【Japan IT Week秋】<br>
+日時：2021年10月27日（水）～29日（金）10時～17時<br>
+会場：幕張メッセ　（千葉市美浜区中瀬2-1）　<br>
+アムニモブース：6ホール「IoT&5Gソリューション展」内（ブース番号：36-41）<br>
+</p>
+
+        </div>
+
+ <div class="section">
+
+<p>アムニモは、お客様およびパートナー様とのコラボレーションにより、市場要望に応える次世代のエッジAIソリューションを構築していきます。<br>
+</p>
+
+        </div>
+
+          <h3>【アムニモ株式会社について】</h3>
+          <div class="item">
+            <p>アムニモは、横河電機株式会社の新規事業として100%出資により2018年5月に発足しました。IoT業界での知見とノウハウを持つメンバーで構成されたアムニモは、その知見やノウハウを融合させ、独自に自社設計・開発したIoTデバイスやクラウドサービスの提供を通じ、IoTとAIでつながる世界に貢献していきます。<br><a href="https://amnimo.com/" target="_blank"> www.amnimo.com.</a><br><br>
+
+<p>本文中で使用されている会社名、団体名、商品名等は、各社又は各団体の登録商標または商標です。</p>
+        </div>
+
+        <div class="section contact-info">
+          <h4>●本プレスリリースに関するお問い合わせ先:</h4>
+          <dl class="item">
+            <dt>横河電機グループ　アムニモ株式会社</dt>
+            <dd>広報（担当：鈴木、市川）<br>
+              〒180-8750　東京都武蔵野市中町2-9-32<br>
+              TEL：050-3160-0300<br>
+            E-mail：&#105;&#110;&#102;&#111;&#64;&#97;&#109;&#110;&#105;&#109;&#111;&#46;&#99;&#111;&#65357;<br>
+　　　　　　</dd>
+          </dl>     
+        </div>
+
+
+      </div>
+      <div class="link-btn"><a href="/news/">ニューストップ</a></div>
+
+    </div>
+
+  </div>
+  <!--container-->
+
+  <?php include $_SERVER['DOCUMENT_ROOT']."/inc/global-footer.php"; ?>
+
+</body>
+
+</html>

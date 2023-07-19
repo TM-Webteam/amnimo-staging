@@ -1,0 +1,315 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap");
+@import "/css/animate.css";
+.mv-block {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 240px;
+    background: #f4f3ff;
+    overflow: hidden
+}
+
+.mv-block .ph-box {
+    position: absolute;
+    bottom: -38px;
+    left: -28px;
+    width: 32.5833333333%;
+    max-width: 391px
+}
+
+.mv-block .img-box {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 16.75%;
+    max-width: 201px
+}
+
+.mv-ttl {
+    position: relative;
+    z-index: 1;
+    font-size: 36px
+}
+
+.link-block {
+    padding: 73px 0 75px
+}
+
+.link-block .block-title {
+    margin-bottom: 2.33333em
+}
+
+.link-block .block-title span {
+    font-size: calc(1em + 10pt)
+}
+
+.link-block .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 81.6666666667%;
+    max-width: 1100px
+}
+
+.link-block .cate-name {
+    margin-bottom: 1.29166em;
+    padding: 0.4em 0.833333em;
+    font-size: calc(1em + 10pt);
+    font-weight: 400;
+    line-height: 1.4;
+    background: #f6f8f8
+}
+
+.link-block .contact-info {
+    margin-top: 1.875em;
+    margin-bottom: 1.875em;
+    padding-left: 6.0869565217%;
+    color: #000
+}
+
+.link-block .contact-info dt {
+    margin-bottom: 1em
+}
+
+.link-block .contact-info dd {
+    padding-left: 1em
+}
+
+.link-block .contact-info .list-disc li {
+    position: relative;
+    padding-left: 1em
+}
+
+.link-block .contact-info .list-disc li:before {
+    content: "・";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1em;
+    height: 100%
+}
+
+.link-block .contact-info .list-disc li:not(:last-child) {
+    margin-bottom: 1em
+}
+
+.link-block .contact-info .tel {
+    line-height: 1.8
+}
+
+.link-block .contact-info .tel>span {
+    display: block
+}
+
+.link-block .contact-info .font-s {
+    font-size: 0.8125em
+}
+
+.link-block .contact-info a {
+    color: #000;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in
+}
+
+.link-block .contact-info a:hover {
+    color: #00e0cd
+}
+
+.link-block .link-list {
+    padding-left: 6.0869565217%
+}
+
+.link-block .link-list li a {
+    position: relative;
+    padding-left: 1em;
+    color: #000;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+    display: block;
+    line-height: 1.4
+}
+
+.link-block .link-list li a:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    border-right: 2px solid #00e0cd;
+    border-bottom: 2px solid #00e0cd;
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+    transform: translateY(-50%) rotate(-45deg)
+}
+
+/* 2021/12/13追加 */
+.link-block .link-list .inline{
+    display: inline-block;
+}
+/* 追加ここまで */
+
+.link-block .link-list li a span {
+    font-size: 0.875em
+}
+
+.link-block .link-list li a:hover {
+    color: #00e0cd
+}
+
+.link-block .link-list li:not(:last-child) {
+    margin-bottom: 1.875em
+}
+
+.link-block .cate-box {
+    padding-top: 80px;
+    margin-top: -80px;
+    width: 46.9387755102%
+}
+
+.link-block .cate-box:nth-child(odd) {
+    margin-right: 6.1224489796%
+}
+
+.link-block .cate-box:not(:nth-child(-n+2)) {
+    margin-top: -30px
+}
+
+@media screen and (max-width:1200px) {
+    .mv-block {
+        height: 20vw;
+        min-height: 150px
+    }
+    .mv-block .ph-box {
+        bottom: -3.1666666667vw;
+        left: -2.3333333333vw
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .mv-ttl {
+        font-size: calc(36/1024*100vw)
+    }
+    .link-block {
+        font-size: calc(16/1024*100vw)
+    }
+    .link-block .cate-box {
+        width: 49%
+    }
+    .link-block .cate-box:nth-child(odd) {
+        margin-right: 2%
+    }
+}
+
+@media screen and (max-width:768px) {
+    .mv-block .ph-box {
+        bottom: -18px;
+        left: -14px;
+        width: 35.546875%
+    }
+    .mv-block .img-box {
+        width: 16.9270833333%
+    }
+    .link-block {
+        padding: 52px 0 75px;
+        font-size: 14px
+    }
+    .link-block .block-title {
+        margin-bottom: 42px
+    }
+    .link-block .wrap {
+        width: 91.1458333333%
+    }
+    .link-block .contact-info,
+    .link-block .link-list {
+        padding-left: 0
+    }
+    .link-block .contact-info .tel>span {
+        display: inline-block;
+        margin-right: 1em
+    }
+    .link-block .contact-info .tel a {
+        display: inline-block;
+        margin-right: 1em
+    }
+    .link-block .cate-box {
+        width: 100%
+    }
+    .link-block .cate-box:nth-child(odd) {
+        margin-right: 0
+    }
+    .link-block .cate-box:not(:nth-child(-n+2)) {
+        margin-top: 0
+    }
+    .link-block .cate-box:not(:first-child) {
+        margin-top: -30px
+    }
+}
+
+@media screen and (max-width:640px) {
+    .mv-block {
+        height: 36.8vw;
+        min-height: 0
+    }
+    .mv-block .ph-box {
+        bottom: -1.8666666667vw;
+        left: -3.6vw;
+        width: 40.6666666667%
+    }
+    .mv-block .img-box {
+        width: 19.0666666667%
+    }
+    .mv-ttl {
+        font-size: calc(36/750*100vw)
+    }
+    .link-block {
+        padding: 11.6vw 0 11.8666666667vw;
+        font-size: calc(28/750*100vw)
+    }
+    .link-block .wrap {
+        width: 90.6666666667%
+    }
+    .link-block .contact-info,
+    .link-block .link-list {
+        padding-left: 9.2647058824%
+    }
+    .link-block .cate-box {
+        margin-top: -60px;
+        padding-top: 60px
+    }
+    .link-block .cate-box:not(:first-child) {
+        margin-top: 0
+    }
+}
+
+@media screen and (max-width:420px) {
+    .mv-block {
+        height: 33.3333333333vw
+    }
+    .mv-ttl {
+        font-size: 20px
+    }
+    .link-block {
+        font-size: 10px
+    }
+    .link-block .block-title {
+        margin-bottom: 30px
+    }
+    .link-block .cate-box:not(:first-child) {
+        margin-top: -10px
+    }
+}
+
+.en .link-block .link-list li a {
+    display: inline-block
+}

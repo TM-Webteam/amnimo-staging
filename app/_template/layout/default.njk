@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+{% include 'partial/meta.njk' %}
+{# Custom head #}
+{%- block customHead %}
+{% endblock -%}
+</head>
+<body class="{% if page %}{{ page }}{% endif %}">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RJ3BQK" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  {% include 'partial/header.njk' %}
+  {# Page content #}
+  {%- block content %}
+  {% endblock -%}
+
+  {% include 'partial/footer.njk' %}
+  <script src="/assets/js/all.min.js"></script>
+  {# Custom js #}
+  {%- block customJs %}
+  {% endblock -%}
+</body>
+</html>

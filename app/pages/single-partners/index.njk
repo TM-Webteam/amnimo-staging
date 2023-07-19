@@ -1,0 +1,137 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+
+<div id="container" class="sng-partners">
+
+  <div class="breadcrumb">
+    <ul class="breadcrumb-list">
+      <li><a href="/">産業用IoTのことならamnimo</a></li>
+      <li>パートナー紹介</li>
+    </ul>
+  </div>
+  <!-- .breadcrumb -->
+
+  <section class="hero03 core">
+    <div class="containers">
+      <div class="hero03__box">
+        <h1 class="ttl-primary-lower cW">パートナー紹介</h1>
+      </div>
+    </div>
+  </section>
+
+  <div class="cate-nav">
+    <ul>
+      <li class="current"><a href="/partners/">パートナー紹介</a></li>
+      <li><a href="/interview/">パートナーの声</a></li>
+    </ul>
+  </div>
+
+  <div class="partner-block detail">
+		<h3 class="block-title"><span>アナログ・テック株式会社​</span></h3>
+		<div class="wrap">
+      <ul class="partners-wrapper">
+        <li class="detail">
+          <picture class="ph-box">
+            <img src="/assets/img/sources/partners/solution_partners/analogtech.png" alt="" width="300" height="200">
+          </picture>
+          <div class="txt-box">
+            <p class="txt">『AI』『IoT』『Machine Vision』を軸に、お客様の課題を解決に導くソリューションを部品レベルから選定してインテグレーション、お客様に最適な産業コンピュータやシステムを提案いたします。​​</p>
+          </div>
+        </li>
+      </ul>
+    </div><!-- .wrap -->
+		<div class="partner_detail bg-white">
+      <dl class="flow-list">
+        <dt>ソリューション紹介</dt>
+        <dd>
+          <ul>
+            <li>産業用コンピュータや組込みボード、パーツ、周辺機器を手掛けています。</li>
+            <li>医療、放送、プラント、その他の様々な産業現場に向けた産業用コンピュータを、小ロット、長期安定供給、カスタム提供やOEMなど、ニーズに細やかに対応できるのが弊社の強みです。</li>
+            <li>1994年設立からの豊富な実績とともに「人」と「モノ」を繋げる技術を以って、お客様と共にSociety5.0の実現を通じ社会課題の解決に寄与してまいります。</li>
+          </ul>
+        </dd>
+        <dt>対応可能範囲</dt>
+        <dd>
+          <ul class="list-disc">
+            <li>販売</li>
+            <li>営業</li>
+            <li>コンピューターシステムのカスタムやOEM</li>
+          </ul>
+        </dd>
+        <dt>対応可能地域</dt>
+        <dd>
+          <ul class="list-disc">
+            <li>全国</li>
+          </ul>
+        </dd>
+        <dt>お問い合わせ先</dt>
+        <dd>
+          <ul>
+            <li>住所：〒135-0064 東京都江東区青海一丁目1番20号ダイバーシティ東京オフィスタワー</li>
+            <li>担当窓口：第二営業技術部</li>
+            <li>TEL：03-3527-6111</li>
+            <li>Email：<a href="mailto:sales@analogtech.co.jp">sales@analogtech.co.jp</a></li>
+            <li>URL：<a href="https://www.analogtech.co.jp/" target="_blank">https://www.analogtech.co.jp/</a></li>
+          </ul>
+        </dd>
+      </dl>    
+    </div><!-- .partner_detail -->
+  </div>
+
+  <div class="contact-block" id="contact-block">
+    <h3 class="ttl-secondary"><span>お問い合わせ</span></h3>
+    <ul>
+      <li class="btn green"><a href="https://support.amnimo.com/hc/ja/requests/new" class="form" target="_blank">お問い合わせ<span class="ib">フォーム</span></a></li>
+      <li class="btn green"><a href="/contact/#doc" class="doc">資料ダウンロード<span class="f80">（無料）</span></a></li>
+      <li class="btn green"><a href="https://amo.amnimo.com/form/estimate" target="_blank" class="quotation">お見積もり依頼</a></li>
+    </ul>
+  </div>
+
+  <section class="relation">
+    <div class="containers">
+      <h2 class="ttl-secondary">関連サービス</h2>
+      <div class="flex gap20">
+        <a href="#" class="item">
+          <figure class="item__img"><img src="/assets/img/common/img-relation01.jpg" alt=""></figure>
+          <h3 class="item__ttl">エッジゲートウェイ（屋内版）</h3>
+          <div class="item__txt">厳しい環境下でも安定稼働。様々な産業で利用可能なLTE通信機能搭載</div>
+        </a>
+        <a href="#" class="item">
+          <figure class="item__img"><img src="/assets/img/common/img-relation02.jpg" alt=""></figure>
+          <h3 class="item__ttl">IoT Router（屋内版）</h3>
+          <div class="item__txt">IoT機器からのインターネット通信を可能にするルーター。汎用性が高く、設置場所を選ばない小型軽量タイプ</div>
+        </a>
+        <a href="#" class="item">
+          <figure class="item__img"><img src="/assets/img/common/img-relation03.jpg" alt=""></figure>
+          <h3 class="item__ttl">デバイス管理システム</h3>
+          <div class="item__txt">エッジゲートウェイ及びIoTルーターとクラウドアプリケーションを連携させるシステム</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+</div>
+<!--container-->
+
+
+{% endblock %}

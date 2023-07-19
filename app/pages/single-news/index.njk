@@ -1,0 +1,187 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<div id="container" class="sng-news">
+
+  <div class="breadcrumb">
+    <ul class="breadcrumb-list">
+      <li><a href="/">産業用IoTのことならamnimo</a></li>
+      <li>導入事例</li>
+    </ul>
+  </div>
+  <!-- .breadcrumb -->
+
+  <section class="news-cont cont-a">
+    <div class="containers">
+
+      <div class="news-wrap">
+        <div class="news-head">
+            <div class="news-type">イベント・セミナー</div>
+            <div class="date">2023.2.15</div>
+            <h2 class="news-ttl">『SECURITY SHOW』出展のお知らせ</h2>
+        </div>
+        <div class="news-body">
+            <div class="section">
+
+                <p class="ttl-txt">この度アムニモは、2023年2月28日(火)から3月3日(金)まで東京ビッグサイトで開催される、「SECURITY SHOW 2023」に出展します。</p>
+
+                <p class="ttl-txt">『現場が求める監視カメラソリューション』をテーマに、信頼性のあるシステムで遠隔監視を止めないLTE通信デバイスと、複数のカメラとデバイスを効率よく管理・運用できるアプリケーションを組み合わせた映像ソリューションを出展します。耐環境性に優れた屋外用のゲートウェイ・IoTルーターをはじめ、映像管理・デバイス死活監視等の運用性に優れたクラウド管理システムも、実機によるデモンストレーションを交えご紹介します。さらに、AI解析に最適な専用プロセッサを搭載したゲートウェイも、人物・車両検知等のデモンストレーションと共に参考出展いたします。</p>
+
+                <p class="ttl-txt">また、3/3(金) 13:30より「人手不足を監視カメラで解消！映像システムの最適解を紹介します」というテーマでセミナーを行います。人手不足への対策として監視カメラの導入は進んでいますが、アムニモならもっと効果が上がります！常時高画質の映像を録画しながら必要な映像をクラウドから取得することが可能で、巡回見回りなどの業務をカメラ映像により代替することで人手不足を劇的に改善するアムニモのソリューションを紹介しますので、是非お越しください。</p>
+
+                <p class="ttl-txt"><strong>▷来場をご希望の方は<a href="https://messeonline.nikkei.co.jp/registration" target="_blank" class="uline">こちら</a>よりご登録ください。</strong>
+                </p>
+
+            </div>
+
+            <div class="section">
+                <h3>【出展製品（IoTデバイス）】</h3>
+                <h4>●エッジゲートウェイ（屋内版）AG10</h4>
+                <p>最大4台のカメラにPoE電源供給、カメラ停止時に自動再起動、複数SIMの高速切替で通信障害を克服する「エッジゲートウェイ」。
+                </p><br>
+
+                <div class="section">
+                    <div class="align-c sp-v15"><img src="/assets/img/sources/news/20230215_report_1/01.png" alt="AG10写真"></div>
+                </div>
+
+                <h4>●エッジゲートウェイ（屋外版）AG20</h4>
+                <p>屋外に設置可能、監視カメラシステムに最適化された高機能・高耐候性が特徴な監視カメラ向けゲートウェイ。
+                </p><br>
+
+                <div class="section">
+                    <div class="align-c sp-v15"><img src="/assets/img/sources/news/20230215_report_1/02.png" alt="AG20写真"></div>
+                </div>
+
+                <h4>●IoTルーター（屋内版）AR10</h4>
+                <p>信頼性が高く小型軽量なIoT機器からのインターネット通信を可能にする汎用性の高いLTEルーター。
+                </p><br>
+
+                <div class="section">
+                    <div class="align-c sp-v15"><img src="/assets/img/sources/news/20230215_report_1/03.png" alt="AR10写真"></div>
+                </div>
+
+                <h4>●IoTルーター(屋外版) AR20</h4>
+                <p>屋外設置でPoE給電が可能。様々な産業用途で利用可能で、防水防塵、雷対策、不安定電源や通信キャリアの障害にも対応。
+                </p><br>
+
+                <div class="section">
+                    <div class="align-c sp-v15"><img src="/assets/img/sources/news/20230215_report_1/04.png" alt="AR20写真"></div>
+                </div>
+
+                <h4>●コンパクトルーター AC10</h4>
+                <p>高い検討性が求められる社会インフラのDXを推進する産業用品質の高性能小型ルーター。
+                </p><br>
+
+                <div class="section">
+                    <div class="align-c sp-v15"><img src="/assets/img/sources/news/20230215_report_1/05.png" alt="AR20写真"></div>
+                </div>
+
+                <h4>●amnimo AI Edge Gateway＜参考出展＞</h4>
+                <p>専用プロセッサにてエッジによるAI画像解析を実現する次世代型Gatewayデバイス。
+                </p><br>
+
+                <div class="section">
+                    <div class="align-c sp-v15"><img src="/assets/img/sources/news/20230215_report_1/06.png" alt="AI Edge Gateway写真"><br></div>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <h3>【出展サービス】</h3>
+
+                <h4>●統合ビデオ管理システム</h4>
+                <p>複数の監視カメラの統一運用を実現。広域に展開する監視カメラの映像をクラウドで管理可能なシステムです。
+                </p><br>
+
+                <div class="section">
+                    <div class="align-c sp-v15"><img src="/assets/img/sources/news/20230215_report_1/07.png" alt="統合ビデオ管理システム画面"><br></div>
+                </div>
+
+
+                <h4>●デバイス管理システム（DMS）</h4>
+                <p>通信デバイスの保守運用を遠隔からクラウドで実施。初期設定から設置後の運用までの各種作業を遠隔で行えます。
+                </p><br>
+
+                <div class="section">
+                    <div class="align-c sp-v15"><img src="/assets/img/sources/news/20230215_report_1/08.png" alt=""><br></div>
+                </div>
+
+                <h4>●燃料電池型監視カメラソリューション</h4>
+                <p>非電源地域でも「止まらないカメラシステム」を実現する、燃料電池で電源供給を行い、電気・通信工事が不要な監視カメラソリューションです。
+                </p><br>
+
+                <div class="section">
+                    <div class="align-c sp-v15"><img src="/assets/img/sources/news/20230215_report_1/09.png" alt=""><br></div>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <h4>SECURITY SHOW 2023</h4>
+                <p>●日時：2023年2月28日(火)から3月3日(金)10時～17時（最終日のみ16時半終了）<br> ●会場：東京ビッグサイト　東展示棟（東京都江東区有明3-10-1）<br>●アムニモブース：東３ホール　ブース番号：SS3035<br> ●事前登録：
+                    <a href="https://messeonline.nikkei.co.jp/registration" target="_blank" class="uline">こちら</a>よりお申込みください。（無料）<br>
+                </p>
+
+            </div>
+
+            <div class="section">
+
+                <h4>セミナー情報</h4>
+                <p>●日時：3月3日（金）13:30～14:00<br> ●会場：東3ホール内 SECURITY SHOWステージ<br>●受講料：無料<br> ●予約：
+                    <a href="https://messeonline.nikkei.co.jp/talks/ss-42" target="_blank" class="uline">こちら</a>よりお願い致します。（無料）<br>※席に余裕がある場合は当日受付を行います。セミナー会場まで直接お越しください。
+                </p>
+
+
+            </div>
+
+            <div class="section contact-info">
+                <h3>●本お知らせに関するお問い合わせ先</h3>
+                <p>アムニモ株式会社<br> マーケットコミュニケーション（担当：岡元）
+                    <br> TEL：050-3196-4774（9:00~12:00、13:00~17:00）
+                    <br> E-mail：support@amnimo.coｍ
+                    <br>
+                </p>
+            </div>
+            <!--  <div class="section dl-box">
+      <p class="pdf"><a href="#" target="_blank"><span>PDFバージョン(706KB)</span></a></p>
+    </div> -->
+        </div>
+        <div class="link-btn"><a href="/news/">ニューストップ</a></div>
+
+    </div>
+
+    </div>
+  </section>
+
+
+  <div class="contact-block" id="contact-block">
+    <h3 class="ttl-secondary"><span>お問い合わせ</span></h3>
+    <ul>
+      <li class="btn green"><a href="https://support.amnimo.com/hc/ja/requests/new" class="form" target="_blank">お問い合わせ<span class="ib">フォーム</span></a></li>
+      <li class="btn green"><a href="/contact/#doc" class="doc">資料ダウンロード<span class="f80">（無料）</span></a></li>
+      <li class="btn green"><a href="https://amo.amnimo.com/form/estimate" target="_blank" class="quotation">お見積もり依頼</a></li>
+    </ul>
+  </div>
+
+</div>
+<!--container-->
+
+{% endblock %}

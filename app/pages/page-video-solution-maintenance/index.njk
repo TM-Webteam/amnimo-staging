@@ -1,0 +1,257 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "映像ソリューション（メンテナンス）" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+
+<div id="container" class="video-solution--maintenance">
+
+  <div class="breadcrumb">
+    <ul class="breadcrumb-list">
+      <li><a href="/">産業用IoTのことならamnimo</a></li>
+      <li>映像ソリューション（メンテナンス）</li> 
+    </ul>
+  </div>
+  <!-- .breadcrumb -->
+
+  <section class="hero02 video-solution--maintenance__hero">
+    <div class="containers">
+      <div class="hero02__box">
+        <div class="hero02__box--sub">産業インフラに適した<br class="sp-only">スマート保安技術で<br class="pc-only">設備保全の<br class="sp-only">人材不足解消に貢献</div>
+        <h2 class="ttl-primary">メンテナンスを<br class="sp-only">効率化する<br>映像ソリューション</h2>
+        <a href="https://support.amnimo.com/hc/ja/requests/new" target="_blank" class="more">ご相談・お問い合わせ</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="video-solution--maintenance__overview">
+    <div class="containers">
+      <h2 class="ttl-secondary">現場が求める<br class="sp-only">監視カメラソリューション</h2>
+      <div class="lead">24時間、365日。<br class="sp-only">止まることがない遠隔監視を実現。</div>
+        <ul class="flex gap20 card">
+          <li class="card__wrap">
+            <h3 class="card__wrap--ttl">インフラの監視</h3>
+            <summary class="card__box">
+              <figure class="card__box--img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance01.png" alt=""></figure>
+            </summary>
+          </li>
+          <li class="card__wrap">
+            <h3 class="card__wrap--ttl">重要施設・設備の監視</h3>
+            <summary class="card__box">
+              <figure class="card__box--img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance02.png" alt=""></figure>
+            </summary>
+          </li>
+          <li class="card__wrap">
+            <h3 class="card__wrap--ttl">生産現場の監視</h3>
+            <summary class="card__box">
+              <figure class="card__box--img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance03.png" alt=""></figure>
+            </summary>
+          </li>
+          <li class="card__wrap">
+            <h3 class="card__wrap--ttl">僻地の監視</h3>
+            <summary class="card__box">
+              <figure class="card__box--img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance04.png" alt=""></figure>
+            </summary>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </section>
+
+  <section class="video-solution--maintenance__problem">
+    <div class="containers">
+      <h2 class="ttl-secondary">設備の保安業務や定期点検において<br  class="pc-only">以下のような課題はございませんか？</h2>
+      <ul class="flex item">
+        <li class="item__wrap">
+          <h3 class="item__wrap--ttl">保安要員（電気主任技術者）の人材が<br class="pc-only">足りない</h3>
+          <summary class="item__box">
+            <figure class="item__box--img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance05.png" alt=""></figure>
+          </summary>
+        </li>
+        <li class="item__wrap">
+          <h3 class="item__wrap--ttl">カメラの映像データとセンサー類や<br>PLC等のデータを統合監視できていない</h3>
+          <summary class="item__box">
+            <figure class="item__box--img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance06.png" alt=""></figure>
+          </summary>
+        </li>
+        <li class="item__wrap">
+          <h3 class="item__wrap--ttl">PoCでは実現した複雑なシステムを本格導入するにはコストが合わない</h3>
+          <summary class="item__box">
+            <figure class="item__box--img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance07.png" alt=""></figure>
+          </summary>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="video-solution--maintenance__solution symmetry">
+    <div class="containers">
+      <h2 class="ttl-secondary">アムニモの<br class="sp-only">映像ソリューションが<br class="sp-only">解決します</h2>
+      <div class="flex sp-reverse item">
+        <figure class="item__img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance08.png" alt=""></figure>
+        <summary class="item__box">
+          <h2 class="item__box--ttl">広範囲に設置された設備・機器を<br class="pc-only">監視カメラで遠隔監視することで<br class="pc-only">定期点検や巡回業務に活用</h2>
+          <div class="item__box--txt">一般的なIPカメラに加え、サーマル・魚眼・360°などの各種カメラにも対応。現場のカメラとIoTエッジデバイスとクラウドとを組み合わせたハイブリッドな映像監視システムで、設備・機器の稼働状況の目視点検や巡回を代替し、保安要員不足の課題解決をご支援します。</div>
+        </summary>
+      </div>
+
+      <div class="flex item">
+        <summary class="item__box">
+          <h2 class="item__box--ttl">分散した映像データとPLC・<br class="pc-only">センサーデータを連携し統合的に監視</h2>
+          <div class="item__box--txt">PLC等に実装されるWEBサーバーのUI(グラフ、アラーム表示等)を汎用的なVMS(Nx Witness)上に統合し映像とデータの連携を実現します。PLCのWebサーバーを活用するためデータ可視化の開発は基本的に不要です。</div>
+        </summary>
+        <figure class="item__img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance09.png" alt=""></figure>
+      </div>
+
+      <div class="flex sp-reverse item">
+        <figure class="item__img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance10.png" alt=""></figure>
+        <summary class="item__box">
+          <h2 class="item__box--ttl">現場を重視したシンプルな<br class="pc-only">システム構成だから<br class="pc-only">
+            PoCも本導入も拡張もスムーズに可能</h2>
+          <div class="item__box--txt">規模を拡大する際には現場のIoTエッジデバイスを追加導入。高コストな有線ネットワーク敷設ではなくLTE通信を活用し、柔軟性が高くセキュアなスマート保安システムの拡張が可能です。</div>
+        </summary>
+      </div>
+    </div>
+  </section>
+
+  <section class="video-solution--maintenance__dl-doc material">
+    <div class="containers">
+      <h2 class="ttl-secondary ttl-secondary--video-solution__dl-doc cW">サービス資料</h2>
+      <div class="flex jcC desc">
+        <figure class="desc__img"><img src="/assets/img/pages/video-solution-maintenance/img-solution-service-doc.png" alt=""></figure>
+        <summary class="desc__box">
+          <div class="desc__box--ttl">アムニモの映像ソリューション（セキュリティ）の<br class="pc-only">詳細な情報はこちらの資料をご覧ください。</div>
+          <a href="/form/eVMSflyerdownload" target="_blank" class="more">資料ダウンロード<span class="f80">(無料)</span></a>
+        </summary>
+      </div>
+    </div>
+  </section>
+
+  <section class="video-solution--maintenance__use-case">
+    <div class="containers">
+      <h2 class="ttl-secondary">アムニモの<br class="sp-only">映像ソリューションの<br class="sp-only">利用シーン</h2>
+      <div class="desc">
+        <h3 class="ttl-tertiary">スマート保安向けソリューション提案例</h3>
+        <figure class="desc__img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance11.png" alt=""></figure>
+        <ul class="check-list">
+          <li>分散した映像（可視／サーマル）やセンサーデータの統合監視をスマートに実現</li>
+          <li>PLC等に実装されるWEBサーバーのUI（グラフ、アラーム表示等）をVMS上に統合し映像とデータの連携を実現</li>
+        </ul>
+      </div>
+
+      <div class="desc">
+        <h3 class="ttl-tertiary">システム構成図</h3>
+        <figure class="desc__img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance12.png" alt=""></figure>
+        <h4 class="ttl-quaternary"><span>アムニモ製品・サービスの提供内容</span></h4>
+        <ul class="check-list">
+          <li>エッジゲートウェイ（屋内版、SSD 512GB搭載）</li>
+          <li>統合ビデオ管理システムライセンス及びVMS（NX Witness）ライセンス</li>
+          <li>デバイス管理システム（エッジゲートウェイの遠隔設定や死活監視、カメラ等の死活監視やファームウェア一括配信）</li>
+          <li>remote.it（インターネットを経由してP2P接続*を実施しセキュアな通信を実現）<br>
+            <span class="remarks">*専用グローバルIPアドレスを持たない機器間<br>
+              ※カメラ（サーマル）やSIMはパートナー企業経由でご提案</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <section class="video-solution--maintenance__case-study group">
+    <div class="containers">
+      <h2 class="ttl-secondary">アムニモの<br class="sp-only">映像ソリューションの<br>導入事例・利用シーン</h2>
+      <div class="lead">アムニモはIoT・クラウド・AIの技術で、高い堅牢性が求められる社会インフラの<br>映像の利活用によるDX推進を支援します</div>
+      <ul class="flex gap30">
+        <li class="card">
+          <a href="/case/005/">
+            <figure class="card__img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance13.png" alt=""></figure>
+            <summary class="card__box">
+              <h3 class="card__box--ttl">風力発電施設のカメラ監視</h3>
+              <p class="card__box--txt">風力発電施設のカメラ監視<br>風力発電所をカメラで遠隔から監視し、安心安全な運用を実現します。</p>
+            </summary>
+          </a>
+        </li>
+        <li class="card">
+          <a href="/case/007/">
+            <figure class="card__img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance14.png" alt=""></figure>
+            <summary class="card__box">
+              <h3 class="card__box--ttl">太陽光発電の管理システム</h3>
+              <p class="card__box--txt">太陽光発電の運用の効率化と安定稼働を実現できます。</p>
+            </summary>
+          </a> 
+        </li>
+        <li class="card">
+          <a href="/case/008/">
+            <figure class="card__img"><img src="/assets/img/pages/video-solution-maintenance/img-video-solution-maintenance15.png" alt=""></figure>
+            <summary class="card__box">
+              <h3 class="card__box--ttl">バイオマス発電施設の<br class="sp-only">異常温度監視</h3>
+              <p class="card__box--txt">オールインワンの装置で統合的な管理システムを実現します。</p>
+            </summary>
+          </a>
+        </li>
+      </ul>
+      <a href="/whitepaper/#secCase" target="_blank" class="more">利用シーン資料ダウンロード<span class="f80">(無料)</span></a>
+    </div>
+  </section>
+
+  <section class="relation">
+    <div class="containers">
+      <h2 class="ttl-secondary">映像ソリューションに<br class="sp-only">最適なIoTデバイスと<br class="sp-only">クラウドアプリケーション</h2>
+      <div class="flex gap30">
+        <a href="/service/edge_gateway/" class="item">
+          <figure class="item__img"><img src="/assets/img/common/img-relation01.jpg" alt=""></figure>
+          <h3 class="item__ttl">エッジゲートウェイ<span class="f80">(屋内版)</span></h3>
+          <div class="item__txt">厳しい環境下でも安定稼働。様々な産業で利用可能なLTE通信機能搭載</div>
+        </a>
+        <a href="/service/edge_gateway_outdoor/" class="item">
+          <figure class="item__img"><img src="/assets/img/common/img-relation04.jpg" alt=""></figure>
+          <h3 class="item__ttl">エッジゲートウェイ<span class="f80">(屋外版)</span></h3>
+          <div class="item__txt">エッジゲートウェイの堅牢性を引き継ぎ、防水・防塵・直射日光・雷対策を考慮した設計。屋外設置可能な監視カメラ向けLTEゲートウェイ</div>
+        </a>
+        <a href="/service/iot_router_outdoor/" class="item">
+          <figure class="item__img"><img src="/assets/img/common/img-relation05.jpg" alt=""></figure>
+          <h3 class="item__ttl">IoTルーター<span class="f80">(屋外版)</span></h3>
+          <div class="item__txt">屋外設置でPoE給電が可能なLTEルーター。さまざまな産業用途で利用可能</div>
+        </a>
+        <a href="/service/e_vms/" class="item">
+          <figure class="item__img"><img src="/assets/img/common/img-relation06.jpg" alt=""></figure>
+          <h3 class="item__ttl">統合ビデオ管理システム</h3>
+          <div class="item__txt">複数の監視カメラの映像をクラウドで管理。必要な情報だけクラウドにアップロード。低コスト運用、システム開発不要。</div>
+        </a>
+        <a href="/service/cloud_vr/" class="item">
+          <figure class="item__img"><img src="/assets/img/common/img-relation07.jpg" alt=""></figure>
+          <h3 class="item__ttl">クラウドビデオレコーダー<br class="sp-only">【開発中】</h3>
+          <div class="item__txt">IoTルーター（屋外版）AR20に接続されたカメラで撮影された映像をクラウドで録画・活用できるサービス</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-block">
+    <h2 class="block-title"><span>お問い合わせ</span></h2>
+    <ul>
+      <li class="btn green"><a href="https://support.amnimo.com/hc/ja/requests/new" target="_blank" class="form">お問い合わせ<span class="ib">フォーム</span></a></li>
+      <li class="btn green"><a href="https://amo.amnimo.com/form/eVMSflyerdownload" target="_blank" class="doc">資料ダウンロード<span class="f80">（無料）</span></a></li>
+      <li class="btn green"><a href="https://amo.amnimo.com/form/estimate" target="_blank" class="quotation">お見積もり依頼</a></li>
+    </ul>
+  </section>
+</div>
+<!--container-->
+
+
+{% endblock %}

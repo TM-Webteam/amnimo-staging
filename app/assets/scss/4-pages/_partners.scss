@@ -1,0 +1,297 @@
+.arc-partners {
+
+  @charset "UTF-8";
+  @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap");
+  @import "/css/animate.css";
+  .mv-block {
+    position: relative;
+    height: 377px;
+    max-height: 510px;
+    background: url(../img/sources/partners/mv.jpg) center center/cover no-repeat;
+  }
+  .mv-block .txt-box {
+    padding: 150px 0 0;
+  }
+  .mv-block .bg-white {
+    padding: 0.9em 0 0.888em;
+    width: 368px;
+    color: #10069f;
+    font-size: 1.125em;
+    font-weight: 400;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+
+  .mv-wrap {
+    width: 100%;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .mv-txt, .mv-ttl {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+
+  .mv-txt {
+    margin-bottom: 0.3em;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  .mv-ttl {
+    display: inline-block;
+    margin-bottom: 1.125em;
+    width: auto;
+  }
+  .mv-ttl span {
+    margin-bottom: 0.23255em;
+    display: block;
+    font-size: 3.75em;
+  }
+
+  .wrap {
+    margin: 0 auto;
+    width: 81.6666666667%;
+    max-width: 1100px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .mv-block {
+      padding-top: 1.6666666667vw;
+      font-size: calc(16/1200*100vw);
+      background: url(../img/sources/partners/mv.jpg) center center/cover no-repeat;
+    }
+    .mv-block .bg-white {
+      width: 20em;
+    }
+
+    .circle-anchor {
+      width: 10vw;
+      min-width: 75px;
+      height: 10vw;
+      min-height: 75px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .mv-block {
+      padding-top: 9.6354166667vw;
+      height: 41.6666666667vw;
+      max-height: 100vh;
+      font-size: 12px;
+      background: url(../img/sources/partners/mv.jpg) center center/cover no-repeat;
+    }
+    .mv-block .bg-white {
+      font-size: 1.5em;
+    }
+
+    .mv-wrap {
+      width: 84.375%;
+    }
+
+    .mv-txt {
+      font-size: 1.16666em;
+    }
+
+    .mv-ttl span {
+      font-size: 4.59666em;
+    }
+
+    .circle-anchor {
+      top: 7px;
+    }
+    .circle-anchor a {
+      padding: 11.6666666667% 0 18.3333333333%;
+      font-size: 10px;
+    }
+    .circle-anchor a::before {
+      bottom: 12.5%;
+    }
+
+    .wrap {
+      width: 91.1458333333%;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .mv-block {
+      padding-top: 2.6666666667vw;
+      height: 46.2666666667vw;
+      background: url(../img/sources/partners/mv.jpg) center center/cover no-repeat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+    .mv-block .txt-box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      width: 100%;
+      text-align: center;
+      padding: 0;
+    }
+    .mv-block .bg-white {
+      margin: 0 auto;
+      width: 59.7333333333%;
+      font-size: calc(23/750*100vw);
+    }
+
+    .mv-wrap {
+      width: 100%;
+    }
+
+    .mv-txt {
+      margin-bottom: 0;
+      font-size: calc(26/750*100vw);
+    }
+    .mv-txt .sp {
+      display: block;
+    }
+
+    .mv-ttl {
+      margin-bottom: 1.3em;
+      font-size: calc(15/750*100vw);
+    }
+
+    .circle-anchor {
+      top: 1.6vw;
+      width: 18.6666666667vw;
+      min-width: 70px;
+      height: 18.6666666667vw;
+      min-height: 70px;
+    }
+    .circle-anchor a {
+      padding: 8.3333333333% 0 18.3333333333%;
+      font-size: calc(20/750*100vw);
+      line-height: 1.2;
+    }
+    .circle-anchor a::before {
+      bottom: 2.1333333333vw;
+    }
+
+    .cate-nav ul {
+      width: 100%;
+    }
+  }
+
+  .partner-block {
+    padding: 67px 0 68px;
+  }
+
+  .partner-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .partner-list a.post {
+    display: block;
+    -ms-flex-preferred-size: 31.5%;
+        flex-basis: 31.5%;
+    max-width: 31.5%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-bottom: 44px;
+    color: #1500A6;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: #FFF;
+  }
+  .partner-list:after {
+    content: "";
+    display: block;
+    width: 31.5%;
+    height: 0;
+  }
+  .partner-list a.post:hover {
+    opacity: 0.8;
+  }
+  .partner-list a.post dl {
+    position: relative;
+  }
+  .partner-list a.post dl dd {
+    padding: 0 1em 1em 1em;
+    line-height: 1.7;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    font-weight: bold;
+  }
+  .partner-list a.post dl dd p {
+    font-size: 0.9em;
+    color: #000;
+    font-weight: normal;
+  }
+
+  /*20210921 大野追加ここから*/
+  .partner-list .ph-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #fff;
+    overflow: hidden;
+    padding: 0 1em;
+    height: inherit;
+  }
+  .partner-list dt{
+    text-align: center; 
+    height: 120px;
+    padding:0 1em;
+    vertical-align: middle;
+  }
+
+  .ph-box img{
+    object-fit: contain;
+    width: 100%;
+    height: 90px;
+  }
+
+  /*20210921 大野追加ここまで*/
+
+  @media screen and (max-width: 768px) {
+    .partner-block .block-title {
+      margin-bottom: 60px;
+    }
+
+    .partner-list a.post {
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+      max-width: 100%;
+    }
+    .partner-list a.post dl dd {
+      padding: 0 1em 1em 1em;
+    }
+
+  }
+
+}
+
+
+

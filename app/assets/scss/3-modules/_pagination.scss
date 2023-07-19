@@ -1,0 +1,69 @@
+/*
+  ----------------
+  pagination
+  ----------------
+*/
+
+.pagination {
+  margin-top: 70px;
+  @media #{$sp} {
+    margin-top: 30px;
+  }
+  .screen-reader-text {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .page-numbers {
+      width: 53px;
+      height: 53px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 600;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: 1px solid #10069f;
+      @media #{$sp} {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+      }
+      &:hover {
+        opacity: 1;
+        color: #fff;
+        background: #10069f;
+      }
+      &.prev {
+        span {
+          display: block;
+          &::before {
+            content: "<<";
+            font-size: 20px;
+            font-weight: bold;
+          }
+        }
+      }
+      &.next {
+        span {
+          display: block;
+          &::before {
+            content: ">>";
+            font-size: 20px;
+            font-weight: bold;
+          }
+        }
+      }
+      &.current {
+        color: #fff;
+        background: #10069f;
+      }
+    }
+  }
+}
